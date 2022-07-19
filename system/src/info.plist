@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>yigitefe.system</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>C6DA4999-3251-400D-BCED-43745E96A537</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3D62FA51-A497-47B0-AABD-A3ED2A851EC6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Yigit Efe</string>
+	<key>description</key>
+	<string>macOS system related workflows</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>System</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>on run argv
+  tell application "System Events"
+    perform action "AXZoomWindow" of (first button whose subrole is "AXFullScreenButton") of (first window whose subrole is "AXStandardWindow") of (first process whose frontmost is true)
+  end tell
+end run</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>3D62FA51-A497-47B0-AABD-A3ED2A851EC6</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>zoom</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Zoom active window</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C6DA4999-3251-400D-BCED-43745E96A537</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>3D62FA51-A497-47B0-AABD-A3ED2A851EC6</key>
+		<dict>
+			<key>xpos</key>
+			<integer>295</integer>
+			<key>ypos</key>
+			<integer>45</integer>
+		</dict>
+		<key>C6DA4999-3251-400D-BCED-43745E96A537</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>45</integer>
+		</dict>
+	</dict>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>1.0.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/yigitefe</string>
+</dict>
+</plist>

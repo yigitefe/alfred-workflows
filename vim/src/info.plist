@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>yigitefe.vim</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>577BC175-F543-436C-B38E-358E45FA1048</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4F07E272-C72A-494F-AE1D-C937EE311D5F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Yigit Efe</string>
+	<key>description</key>
+	<string>Vim related workflows</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Vim</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>1</integer>
+				<key>script</key>
+				<string>vim {query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.terminalcommand</string>
+			<key>uid</key>
+			<string>4F07E272-C72A-494F-AE1D-C937EE311D5F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>vim</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Open a file with Vim...</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>577BC175-F543-436C-B38E-358E45FA1048</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>4F07E272-C72A-494F-AE1D-C937EE311D5F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>355</integer>
+			<key>ypos</key>
+			<integer>80</integer>
+		</dict>
+		<key>577BC175-F543-436C-B38E-358E45FA1048</key>
+		<dict>
+			<key>xpos</key>
+			<integer>70</integer>
+			<key>ypos</key>
+			<integer>80</integer>
+		</dict>
+	</dict>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>1.0.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/yigitefe</string>
+</dict>
+</plist>
